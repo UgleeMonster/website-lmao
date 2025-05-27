@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - Castle Library</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles-item.css" />
+</head>
+<body>
+  <!-- Top Box -->
+  <div class="top-box">
+    <div class="left-section">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="center-section">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search for books..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <button id="settingsBtn" class="icon-btn">⚙️</button>
+      <button id="cartBtn" class="icon-btn">🛒</button>
+      <span id="cartCount">0</span>
+      <button id="loginBtn" class="login-btn">Login</button>
+      <button id="registerBtn" class="register-btn">Register</button>
+    </div>
+  </div>
+
+  <!-- Cart Section -->
+  <div class="cart">
+    <h2>Your Cart</h2>
+    <div id="cartItemsList">
+      <!-- Dynamically added cart items will go here -->
+    </div>
+    <button id="checkoutBtn">Proceed to Checkout</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Castle Library. All Rights Reserved.</p>
+  </footer>
+
+  <script src="cart.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Castle Library</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Box -->
+  <div class="top-box">
+    <div class="left-section">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="center-section">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search for books..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <button id="settingsBtn" class="icon-btn">⚙️</button>
+      <button id="cartBtn" class="icon-btn">🛒</button>
+      <button id="loginBtn" class="login-btn">Login</button>
+      <button id="registerBtn" class="register-btn">Register</button>
+    </div>
+  </div>
+
+  <!-- Business Name -->
+  <div class="business-name-box">
+    <h1 class="glowing-text">Castle Library</h1>
+  </div>
+
+  <!-- Book Categories -->
+  <div class="library">
+    <!-- Genre: Drama -->
+    <div class="genre-section">
+      <h2>Drama</h2>
+      <div class="shelf">
+        <div class="book-row">
+          <a href="royal-blood.html" class="book"><div class="book-back">Royal Blood</div></a>
+          <a href="drama2.html" class="book"><div class="book-back">Throne Tears</div></a>
+          <a href="drama3.html" class="book"><div class="book-back">Loyalty Lost</div></a>
+          <a href="drama4.html" class="book"><div class="book-back">Unseen Scars</div></a>
+          <a href="drama5.html" class="book"><div class="book-back">Doomed Fate</div></a>
+          <a href="drama6.html" class="book"><div class="book-back">Silent Heart</div></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Genre: Horror -->
+    <div class="genre-section">
+      <h2>Horror</h2>
+      <div class="shelf">
+        <div class="book-row">
+          <a href="horror1.html" class="book"><div class="book-back">Crypt Shadows</div></a>
+          <a href="horror2.html" class="book"><div class="book-back">Castle Haunt</div></a>
+          <a href="horror3.html" class="book"><div class="book-back">Nightmare's Call</div></a>
+          <a href="horror4.html" class="book"><div class="book-back">Whispers in the Dark</div></a>
+          <a href="horror5.html" class="book"><div class="book-back">Grim Secrets</div></a>
+          <a href="horror6.html" class="book"><div class="book-back">Flesh and Stone</div></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Genre: Comedy -->
+    <div class="genre-section">
+      <h2>Comedy</h2>
+      <div class="shelf">
+        <div class="book-row">
+          <a href="comedy1.html" class="book"><div class="book-back">Jester’s Tale</div></a>
+          <a href="comedy2.html" class="book"><div class="book-back">Knight Giggles</div></a>
+          <a href="comedy3.html" class="book"><div class="book-back">Royal Pranks</div></a>
+          <a href="comedy4.html" class="book"><div class="book-back">Mirthful Swords</div></a>
+          <a href="comedy5.html" class="book"><div class="book-back">Banquet of Laughs</div></a>
+          <a href="comedy6.html" class="book"><div class="book-back">Crown of Jest</div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Castle Library. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Effects -->
+  <div id="fireflies-container"></div>
+  <script src="script.js" defer></script>
+</body>
+</html>

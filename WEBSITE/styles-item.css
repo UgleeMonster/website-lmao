@@ -1,0 +1,133 @@
+/* Base Styles */
+body {
+  margin: 0;
+  background-color: #1e1a17;
+  font-family: 'Cinzel', serif;
+  color: #f5f5f5;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Top Box Styles */
+.top-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2e2a25;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.left-section nav a,
+.right-section .icon-btn {
+  color: #ffe599;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.center-section .search-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.search-container input {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.search-container button {
+  padding: 6px 10px;
+  background-color: #6b4c2e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-btn, .register-btn {
+  background-color: #ffd700;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.business-name-box {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.glowing-text {
+  font-size: 36px;
+  color: #ffe599;
+}
+
+/* Book Details Styles */
+.book-details {
+  margin: 30px auto;
+  padding: 20px;
+  width: 80%;
+  background-color: #3a2f25;
+  border-radius: 10px;
+}
+
+.book-details h2 {
+  color: #ffe599;
+  text-align: center;
+}
+
+.book-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.book-img {
+  width: 250px;
+  height: 375px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.book-description {
+  flex-grow: 1;
+}
+
+.author-name {
+  color: #ffd700;
+}
+
+.add-to-cart-btn, .buy-now-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: #ffd700;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn {
+  background-color: #6b4c2e;
+}
+
+.buy-now-btn {
+  background-color: #ff4500;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #2e2a25;
+  color: #aaa;
+  margin-top: 60px;
+}

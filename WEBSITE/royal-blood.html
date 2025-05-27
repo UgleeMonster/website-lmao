@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Royal Blood - Castle Library</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles-item.css" />
+</head>
+<body>
+  <!-- Top Box -->
+  <div class="top-box">
+    <div class="left-section">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="center-section">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search for books..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <button id="settingsBtn" class="icon-btn">⚙️</button>
+      <button id="cartBtn" class="icon-btn">🛒</button>
+      <button id="loginBtn" class="login-btn">Login</button>
+      <button id="registerBtn" class="register-btn">Register</button>
+    </div>
+  </div>
+
+  <!-- Business Name -->
+  <div class="business-name-box">
+    <h1 class="glowing-text">Castle Library</h1>
+  </div>
+
+  <!-- Book Details Section -->
+  <div class="book-details">
+    <h2>Royal Blood</h2>
+    <div class="book-info">
+      <img src="images/royal-blood.jpg" alt="Royal Blood" class="book-img"/>
+      <div class="book-description">
+        <p><strong>Author:</strong> <span class="author-name">John Doe</span></p>
+        <p>
+          Royal Blood is a dramatic tale set in a fictional kingdom filled with intrigue, passion, and betrayal. In a world ruled by an ancient monarchy, the fate of the kingdom rests on the shoulders of one unlikely hero...
+          The story follows the royal family as they struggle to maintain power, with betrayal lurking behind every corner. The political intrigue, backstabbing, and forbidden love will leave you hooked from start to finish.
+          <br /><br />
+          A story of power, betrayal, and hope, "Royal Blood" explores the complexities of royal life and the limits of loyalty. 
+        </p>
+        <button id="addToCartBtn" class="add-to-cart-btn">Add to Cart</button>
+        <button id="buyNowBtn" class="buy-now-btn">Buy Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Castle Library. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
