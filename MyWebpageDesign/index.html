@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Castle Library</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Top Box -->
+  <div class="top-box">
+    <div class="left-section">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+
+    <div class="center-section">
+      <div class="search-container">
+        <input type="text" id="search" placeholder="Search for books..." />
+        <button id="searchBtn">Search</button>
+      </div>
+    </div>
+
+    <div class="right-section">
+      <button id="settingsBtn" class="icon-btn">⚙️</button>
+      <button id="cartBtn" class="icon-btn">🛒</button>
+      <button id="loginBtn" class="login-btn">Login</button>
+      <button id="registerBtn" class="register-btn">Register</button>
+    </div>
+  </div>
+
+  <!-- Business Name -->
+  <div class="business-name-box">
+    <h1 class="glowing-text">Castle Library</h1>
+  </div>
+
+  <!-- Book Categories -->
+  <div class="library">
+    <div class="genre-section">
+      <h2>Drama</h2>
+      <div class="shelf">
+        <div class="book-row">
+          <a href="the-great-gatsby.html" class="book"><div class="book-back">The Great Gatsby</div></a>
+          <a href="pride-and-prejudice.html" class="book"><div class="book-back">Pride and Prejudice</div></a>
+          <a href="to-kill-a-mockingbird.html" class="book"><div class="book-back">To Kill a Mockingbird</div></a>
+          <a href="1984.html" class="book"><div class="book-back">1984</div></a>
+          <a href="catcher-in-the-rye.html" class="book"><div class="book-back">The Catcher in the Rye</div></a>
+          <a href="dorian-gray.html" class="book"><div class="book-back">The Picture of Dorian Gray</div></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="genre-section">
+      <h2>Horror</h2>
+      <div class="shelf">
+        <div class="book-row">
+          <a href="dracula.html" class="book"><div class="book-back">Dracula</div></a>
+          <a href="frankenstein.html" class="book"><div class="book-back">Frankenstein</div></a>
+          <a href="hill-house.html" class="book"><div class="book-back">The Haunting of Hill House</div></a>
+          <a href="the-shining.html" class="book"><div class="book-back">The Shining</div></a>
+          <a href="it.html" class="book"><div class="book-back">It</div></a>
+          <a href="the-exorcist.html" class="book"><div class="book-back">The Exorcist</div></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="genre-section">
+      <h2>Comedy</h2>
+      <div class="shelf">
+        <div class="book-row">
+          <a href="hitchhikers-guide.html" class="book"><div class="book-back">The Hitchhiker's Guide to the Galaxy</div></a>
+          <a href="catch-22.html" class="book"><div class="book-back">Catch-22</div></a>
+          <a href="don-quixote.html" class="book"><div class="book-back">Don Quixote</div></a>
+          <a href="confederacy-of-dunces.html" class="book"><div class="book-back">A Confederacy of Dunces</div></a>
+          <a href="good-omens.html" class="book"><div class="book-back">Good Omens</div></a>
+          <a href="importance-of-being-earnest.html" class="book"><div class="book-back">The Importance of Being Earnest</div></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Castle Library. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Fireflies Container -->
+  <div id="fireflies-container"></div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
